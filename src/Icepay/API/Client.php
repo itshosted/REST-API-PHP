@@ -22,6 +22,9 @@ class Client
      */
     protected $ch;
 
+    public $payment;
+    public $refund;
+
     /**
      * @var $api_key
      */

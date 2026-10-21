@@ -2,6 +2,12 @@
 
 Authors: See the [composer.json authors block](https://github.com/icepay/API/blob/master/composer.json) for all the authors and contributors of this project.
 
+### Unreleased
+
+Bugfixes:
+
+- Declare the client's payment and refund resources to prevent dynamic-property deprecations on PHP 8.2 and PHP 8.3 without raising the minimum PHP version.
+- Add offline compatibility checks for client initialization and payment/refund request generation.
 
 ### 0.0.3 (27-12-2020)
 

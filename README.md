@@ -23,6 +23,14 @@ The documentation and its examples are stored in the `/doc/` [folder](https://gi
 
 ### Contributing
 
+Run the offline compatibility checks with all PHP warnings and deprecations treated as failures:
+
+```sh
+php tests/compatibility.php
+```
+
+These checks cover client initialization and payment/refund request generation without contacting ICEPAY. Live API connectivity and credentials are not tested.
+
 We'd love for you to contribute to our source code and to make our API even better than it is today! Here is how you can do that:
 
 * Fork it
